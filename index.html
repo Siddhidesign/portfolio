@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+<div class="logo">Siddhi Manche</div>
+    <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#Education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+        </ul>
+</div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Siddhi Manche</div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic-circle.png" alt="Siddhi Manche profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Siddhi Manche</h1>
+      <p class="section__text__p2">UI/UX Designer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume-example.pdf')">
+        Resume
+    </button>
+    <button class="btn btn-color-1" 
+    onclick="location.href='./#contact'">
+    Contact Info
+    </button>
+    <div>
+        <div id="socials-container">
+            <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/siddhi-manche-969820216/'"
+            />
+            <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Siddhidesign'"
+            />
+        </div>
+    </div>
+</section>
+<section id="about">
+  <p class="section__text__p1"> Let's Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img
+        src="./assets/about-pic .png"
+        alt="Profile picture"
+        class="about-pic"
+      />
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+        <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+        />
+        <h3>Experience:</h3>
+        <p> 
+          <ul> 
+        Freelance Project- Junior Product Designer [2months]
+        </ul> <br /><strong>Certification:</strong><li>Google UX Design Professional Certificate, All 7 courses(Coursera)</li><li> Visualization with Power BI</li></p>
+        </div>
+        <div class="details-container">
+        <img
+            src="./assets/education.png"
+            alt="Education icon"
+            class="icon"
+        />
+        <h3>Education</h3>
+        <p><li>Bachelor's in Electronics and Telecommunication Engineering  <strong>(Specialization in AI/ML)</strong></li>
+            <br /><li>Master's Degree in Human-Centered Design Engineering      <strong>(Specialization in User Experience Design)</strong></li></p>
+        </div>
+    </div>
+    <div class="text-container">
+        <p style="text-align: justify;">
+          I am a graduate student in <strong>Human-Centered Design Engineering</strong> at the <strong>University of Michigan-Dearborn</strong>, specializing in <strong>User Experience Design</strong>. I have strong technical skills in tools like <strong>Figma</strong>, Adobe Creative Suite, and Flutter, along with expertise in user research, <strong>wireframing</strong>, and <strong>prototyping</strong>. My projects, such as <strong>EV charging app</strong> , have achieved <strong>high usability scores</strong> and showcased my ability to design impactful solutions. With certifications in <strong>Google UX Design</strong> and a focus on user-centered outcomes, I am passionate about creating meaningful and efficient experiences that make a difference.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#Skills'"
+    />
+  </section>
+  <section id="Skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Technical Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Design Applications</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Figma</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Adobe XD</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Illustrator</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>VSCode</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"/>
+    <div><h3>Flutter</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Photoshop</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">UX Skills</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>UIDevelopment</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>User Research</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Wireframing</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Prototype</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>ProjectManagement</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>ProjectDesign</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+</section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-1.png"
+            alt="Project 1"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Service Provider & Experiencing Application       <strong>[QuickFix]</strong></h2>
+        <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Final Submission.pdf')">
+            Case Study
+        </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.figma.com/proto/aT0WlmldjeQSQh1sG8V37s/prototype?page-id=0%3A1&node-id=3-2&viewport=953%2C462%2C0.1&t=YqRFi5c3uZKqWKmU-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3%3A2&show-proto-sidebar=1'"
+          >
+            Prototype
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-2.png"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title"> Unified EV Charging Experience:Prototype Development and User Testing</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.figma.com/design/qWy16GyBpbCZmzsxqyLk9u/EV-PROTOTYPE?node-id=0-1&t=dbOR8odxsmICB0yd-1'"
+          >
+            Design File
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.figma.com/proto/qWy16GyBpbCZmzsxqyLk9u/EV-PROTOTYPE?page-id=0%3A1&node-id=1-2416&p=f&viewport=363%2C365%2C0.09&t=WX7Oj4gWfg9Zdpf2-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2416'"
+          >
+            Prototype
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-3.png"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">A Mobile Dashboard for Student Mental Health and Support Resources</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.figma.com/design/BmRNH7BCgwd7LSsiF2B6gu/Mental-health?node-id=0-1&t=Xgrh0ZL1rPevPKcL-1'"
+          >
+            Design File
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.figma.com/proto/BmRNH7BCgwd7LSsiF2B6gu/Mental-health?page-id=0%3A1&node-id=1-483&starting-point-node-id=1%3A483&t=Rif2PFyU29l1p76p-1'"
+          >
+            Prototype
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/medicine.png"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Real-time Identification of Medicinal Plants using Deep Learning</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Siddhidesign/Real-time-Identification-of-Medicinal-Plants'"
+          >
+            Github
+          </button>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Submission.pdf')">
+            Report
+        </button>
+        </div>
+      </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  />
+  </div>
+  
+</section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="manchesr@umich.edu">Gmail</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/siddhi-manche-969820216/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Siddhi Manche. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
