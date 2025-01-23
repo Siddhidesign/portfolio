@@ -288,7 +288,7 @@ section {
 .project-img,
 .project-video {
     border-radius: 2rem;
-    width: 100%; /* Full width within the left column */
+    width: 50%; /* Full width within the left column */
     max-width: 400px;
     height: auto;
     object-fit: cover;
